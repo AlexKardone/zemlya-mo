@@ -1,5 +1,5 @@
 {
-  "name": "freshy",
+  "name": "zemlya-mo",
   "version": "1.0.0",
   "description": "seafood site",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexKardone/freshy.git"
+    "url": "https://github.com/AlexKardone/zemlya-mo.git"
   },
   "author": "Alexander Matskevich",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexKardone/freshy/issues"
+    "url": "https://github.com/AlexKardone/zemlya-mo/issues"
   },
-  "homepage": "https://github.com/AlexKardone/freshy#readme",
+  "homepage": "https://github.com/AlexKardone/zemlya-mo#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",

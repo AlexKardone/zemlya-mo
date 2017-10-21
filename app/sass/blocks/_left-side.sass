@@ -1,0 +1,121 @@
+.left-side
+	position: relative
+	display: table-cell
+	max-width: 80px
+	vertical-align: top
+	text-align: center
+	background-color: $dfc
+
+	@media screen and (max-width: 768px)
+		display: none
+
+	&__logo
+		height: 80px
+		background-color: $bg-logo
+
+	&__menu
+		margin-bottom: 100px
+		width: 70px
+		height: 80px
+
+		@media screen and (max-width: 768px)
+			display: none
+
+	&__social
+		display: inline-block
+		margin-bottom: 140px
+
+		& a 
+			color: $dfc
+
+			&:hover
+				color: $dfc
+
+		&-item
+			margin-bottom: 15px
+			padding-top: 5px
+			width: 25px
+			height: 25px
+			text-align: center
+			border-radius: 50%
+			background-color: $bg-white
+
+			&:hover
+				background-color: $bg-history
+
+			& i:hover
+				color: $dfc
+
+	&__btns
+		width: 100%
+
+		&-item
+			position: relative
+			padding: 10px
+			display: inline-block
+			width: 100%
+			min-height: 80px
+			font-size: $dfz
+			line-height: $dlh
+			background-color: $bg-btn
+			border-top: 1px solid $borderMenu
+
+			&:hover
+				background-color: $linkfc-hov
+
+			&:hover p
+					color: $bg-btn
+
+			& p 
+				display: block
+				margin: 0
+				width: 100%
+				font-size: $dfz / 2
+				line-height: $dlh / 2
+				color: $bg-white
+
+				&::before
+					content: ''
+					margin: 10px auto
+					display: block
+					width: 37px
+					height: 37px
+
+			&--1 p::before
+				background: url('../img/sprite.png') -240px -40px
+
+			&--1:hover p::before
+				background: url('../img/sprite.png') -240px 0px
+
+			&--2 p::before
+				background: url('../img/sprite.png') -200px -40px
+
+			&--2:hover p::before
+				background: url('../img/sprite.png') -200px 0px
+
+			&--2 span
+				position: absolute
+				top: 10px
+				right: 10px
+				display: block
+				width: 18px
+				height: 18px
+				font-weight: 900
+				font-size: $dfz / 2
+				line-height: $dlh
+				color: $dfc
+				background-color: $linkfc-hov
+				border-radius: 50%
+				
+				
+
+
+
+
+
+
+
+
+
+
+		

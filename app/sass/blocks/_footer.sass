@@ -1,0 +1,119 @@
+.footer 
+	display: table-row
+	min-height: 260px
+	font-size: 0
+	line-height: 0
+	color: $dfc
+	text-align: center
+	background-color: $bg
+
+	&__wrap
+		position: relative
+		z-index: 30
+		margin-top: 30px
+		margin-bottom: 30px
+		display: inline-block
+		width: 100%
+
+	&__features
+		position: relative
+		z-index: 20
+
+		&-block
+			display: inline-block
+			margin-top: -135px
+			margin-left: 5px
+			margin-bottom: 60px
+			margin-left: 5px
+			padding: 20px 30px 40px 20px
+			width: 15%
+			min-height: 445px
+			text-align: left
+			vertical-align: top
+			font-size: $dfz
+			line-height: $dlh
+			background-color: $bg-white
+			box-shadow: 0 0 12px $shadow-color
+
+			@media screen and (max-width: 992px)
+				margin-top: 0
+				margin-bottom: 10px
+				width: 30%
+
+			@media screen and (max-width: 768px)
+				padding: 10px
+				min-height: 270px
+
+			&:last-child
+				margin-right: 0
+
+		&-title
+			margin-bottom: 20px
+
+		&-title b
+			font-size: $dfz * 2 - 3
+			line-height: $dlh * 2 - 6
+			font-weight: 400
+
+			@media screen and (max-width: 1200px)
+				font-size: $dfz + 6
+				line-height: $dlh + 6
+
+			@media screen and (max-width: 768px)
+				font-size: $dfz - 2
+				line-height: $dlh - 2
+
+		&-title::before
+			content: ''
+			display: block
+			width: 100px
+			height: 105px
+
+		&-title--1::before
+			background-image: url('../img/sprite.png')
+			background-repeat: no-repeat
+			background-position: -10px -223px
+			// background-size: 100%
+
+		&-title--2::before
+			background: url('../img/sprite.png') no-repeat -115px -223px
+
+		&-title--3::before
+			background: url('../img/sprite.png') no-repeat -220px -223px
+
+		&-title--4::before
+			background: url('../img/sprite.png') no-repeat -315px -223px
+
+		&-title--5::before
+			background: url('../img/sprite.png') no-repeat -420px -223px
+
+		&-title--6::before
+			background: url('../img/sprite.png') no-repeat -510px -223px
+
+		&-description
+
+			@media screen and (max-width: 768px)
+				font-size: $dfz / 2
+				line-height: $dlh / 2
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
